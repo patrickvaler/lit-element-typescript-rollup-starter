@@ -42,6 +42,10 @@ Browser will open the application on https://localhost:10000
 $ npm run production build
 ```
 
+### Browserslist
+
+This project uses [browserslist][browserslist-github] to specify the supported browsers and include all necessary polyfills. The supported browsers can be defined `browserlist` file in current directory.
+
 ## License
 
 _The MIT License (MIT)_
