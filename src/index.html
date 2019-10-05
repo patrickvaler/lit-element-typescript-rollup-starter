@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>lit-element-typescript-rollup-starter</title>
+    <!-- Force polyfills for testing -->
+    <!-- 
+  <script>
+    window.ShadyDOM = {
+      force: true
+    };
+    if (window.customElements) customElements.forcePolyfill = true;
+  </script>
+  -->
+
+    <!-- Bundle for modern browsers -->
+    <script type="module" src="index.js"></script>
+  </head>
+
+  <body>
+    <my-element></my-element>
+    <script src="webcomponents-loader.js"></script>
+  </body>
+</html>
